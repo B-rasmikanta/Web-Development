@@ -8,6 +8,7 @@
     <title>Create Multiple Form</title>
 </head>
 <body>
+    <!-- For Existing user -->
     <div>
         <h2>Already Registerd?LOGIN now</h2>
     </div>
@@ -23,6 +24,7 @@
     </div>
         </form>
     <hr>
+    <!-- blog add header -->
     <section>
         <h2>
         <a href="">Coding Ninjas Blogs</a>
@@ -30,6 +32,7 @@
         <img src="image/ilovecc.png" alt="i love coding ninjas" height="300px">
     </section>
     <hr>
+        <!-- for the New users -->
         <div>
             <h2><a href="">REGISTRATION</a></h2>
         </div>
@@ -52,11 +55,25 @@
                 </tr>
                 <tr>
                     <td><label for="adres">Current Address:</label></td>
-                    <td><label for="adres">Locallity</label></td>
-                    <td><input type="text" id="adres" /></td>
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td><label for="flat"> Flat No./House No.</label></td>
+                                <td><input type="text" id="flat"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="lc">Locality</label></td>
+                                <td><input type="text" id="lc"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="city">city</label></td>
+                                <td><input type="text" id="city"></td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Is Current address and Permanent address same?</td>
+                    <td colspan="2"> <b>Is Current address and Permanent address same?</b></td>
                     <td><input type="radio" name="addres" value="Yes">Yes<input type="radio" name="addres" value="No">No</td>
                 </tr>
                 <tr>
